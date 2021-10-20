@@ -26,7 +26,7 @@ class RedditBot:
                 })
 
     def make_reply(self, comment):
-        rng = random.randint(1,34)
+        rng = random.randint(1,35)
         dictionary = self.response_list[rng]
         try:
             comment.reply(dictionary['reply'])
